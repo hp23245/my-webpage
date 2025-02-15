@@ -1,0 +1,65 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Product Sans&display=swap');
+
+body {
+    background-color: #16595c;
+    font-family: 'Product Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+h1, h2 {
+    margin: 20px;
+    padding: 10px;
+}
+
+h1 {
+    border: 3px solid #333;
+    text-align: center;
+    color: darkblue;
+}
+
+h2 {
+    color: darkred;
+}
+
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+
+ol li {
+    color: green;
+}
+
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+a:hover {
+    color: red;
+}
+
+
+img {
+    border-radius: 10px;
+}
+
+
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
