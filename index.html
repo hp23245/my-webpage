@@ -1,6 +1,7 @@
 <HTML>
 <HEAD>
 <TITLE>Welcome to Harshit's Webpage</TITLE>
+<link rel="stylesheet" href="styles.css">
 </HEAD>
 <BODY>
 <H1>Welcome to Harshit's Webpage</H1>
@@ -8,13 +9,34 @@
 <P> I'm very interested in a career in web/software development. I hold an undergraduate degree in Computer Science with a specialization in Data Science.
 <br><hr>
 <center>
-<img src="i.jpeg" alt="A picture of me" width="200">
+<img src="/Users/harshitpotluri/Documents/HTML/i.jpeg" alt="A picture of me" width="200">
 </center>
 <br><hr>
  <ul>
  <li><a href="about.html">About Me</a></li>
 <li><a href="contact.html">Contact</a></li>
 </ul>
+  <hr>
+<h2>Interactive Section</h2>   
+<p id="message">Click the button to see a message.</p>
+<button id="messageButton">Click Me</button>
+    
+    <br><br>
+    
+    <button id="bgButton">Change Background Color</button>
+    
+    <br><br>
+    
+    <input type="text" id="nameInput" placeholder="Enter your name">
+    <button id="submitName">Submit Name</button>
+    <p id="greeting"></p>
+    
+    <br><br>
+    
+    <p id="hiddenText" style="display: none;">This is a hidden message!</p>
+    <button id="toggleText">Show Text</button>
+    
+    <script src="script.js"></script>
 </BODY>
 </HTML>
 
